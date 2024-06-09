@@ -61,11 +61,12 @@ body{font-family: 'inter',sans-serif;}
      min-height: 100vh; /* Example height to visualize the pattern */
     width:100%;
     display: flex;
-    justify-content: start;
+    justify-content: space-between;
     align-items: start;
     color: white;
     font-family: Arial, sans-serif;
     text-align: center;
+    flex-direction: column;
 }
 
 .container::before {
@@ -84,5 +85,17 @@ body{font-family: 'inter',sans-serif;}
     opacity: 0.10;
 }
 .container::before:hover{
-    opacity:1;
+    content:"";
+    position: absolute;
+    top:0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    z-index: -1;
+    background-color: var(--darkergrey);
+    background-image: 
+        linear-gradient(var(--lightgrey) 0.8rem, transparent 0.8rem),
+        linear-gradient(90deg, var(--lightgrey) 0.5rem, transparent 0.5rem);
+    background-size: 5rem 5rem;
+    opacity: 1;    
 }
