@@ -61,8 +61,8 @@ body{font-family: 'inter',sans-serif;}
      min-height: 100vh; /* Example height to visualize the pattern */
     width:100%;
     display: flex;
-    justify-content: space-between;
-    align-items: start;
+    justify-content: flex-start;
+    align-items: center;
     color: white;
     font-family: Arial, sans-serif;
     text-align: center;
@@ -102,4 +102,30 @@ body{font-family: 'inter',sans-serif;}
 
 .title{
     color: var(--darkergrey);
+margin-top: 50px;}
+
+.title {
+    font-size: 80px;
+}
+p{
+    color: var(--darkgrey);
+    font-size: 25px;
+}
+
+.titleInfo{
+    display: flex;
+    justify-content: center;
+    justify-items:center;
+    flex-direction: column;
+    margin-top: 100px;
+
+
+}
+.aboutMe{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    width: 700px;
+    margin: 50px;
+    margin-left:200px;
 }
