@@ -99,3 +99,7 @@ body{font-family: 'inter',sans-serif;}
     background-size: 5rem 5rem;
     opacity: 1;    
 }
+
+.title{
+    color: var(--darkergrey);
+}
