@@ -49,3 +49,8 @@ body{font-family: 'inter',sans-serif;}
     color: var(--white);
 }
 
+.contactBox{
+    border: 2px solid var(--lightgrey);
+    padding :10px;
+    margin-top: 5px;
+}
