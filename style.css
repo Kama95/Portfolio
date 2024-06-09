@@ -52,5 +52,5 @@ body{font-family: 'inter',sans-serif;}
 .contactBox{
     border: 2px solid var(--lightgrey);
     padding :10px;
-    margin-top: 5px;
+    margin-top: -10px;
 }
