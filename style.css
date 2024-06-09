@@ -54,3 +54,19 @@ body{font-family: 'inter',sans-serif;}
     padding :10px;
     margin-top: -10px;
 }
+
+.container {
+    background-color: var(--darkergrey);
+    background-image: 
+        linear-gradient(var(--lightgrey) 0.5rem, transparent 0.5rem),
+        linear-gradient(90deg, var(--lightgrey) 0.5rem, transparent 0.5rem);
+    background-size: 5rem 5rem, 5rem 5rem;
+    min-height: 100vh; /* Example height to visualize the pattern */
+    width:100%;
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    color: white;
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
