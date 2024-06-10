@@ -136,7 +136,16 @@ p{
 
 }
 
-
+.nameCityMobile {
+    display: none;
+}
+.listItems{
+    display: flex;
+    justify-content: space-between;
+}
+.drpdwnbtn,h2 {
+    display: none;
+}
 /*mobile responsive*/
 
 @media screen and (max-width: 600px) {
@@ -154,7 +163,7 @@ p{
         z-index: 1;
     }
     .navItems{
-        flex-direction: column;
+        flex-direction: row;
         align-items: flex-start;
     }
     .navbar{width:100%;}
@@ -184,6 +193,11 @@ p{
 .navItems .listItems{
     overflow: hidden;
     height: 0;
+}
+.nameCityMobile{
+    display: block;
+    margin-right: 30px;
+    width: 100%;
 }
     
 }
