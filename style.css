@@ -142,6 +142,7 @@ p{
 .listItems{
     display: flex;
     justify-content: space-between;
+    width: 100%;
 }
 .drpdwnbtn,h2 {
     display: none;
