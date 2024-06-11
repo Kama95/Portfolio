@@ -175,9 +175,11 @@ p{
     }
 
     .contactMe{
-        font-size: 15px;
+        font-size: 17px;
         margin-right: 36px;
-        margin-top: 5px;
+        background-color: var(--grey);
+        width: 100px;
+        padding: 5px;
     }
     .leftLs{
         flex-direction: column;
@@ -190,13 +192,18 @@ p{
         display: none;
     }
     li{
-    font-size: 15x;}
+    font-size: 15x;
+     padding: 5px;}
 
 .navItems .listItems{
     overflow: hidden;
     height: 0;
     flex-direction: column;
     align-items: self-end;
+}
+
+.navItems .listItems.open{
+    overflow: visible;
 }
 .nameCityMobile{
     display: block;
