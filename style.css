@@ -208,8 +208,9 @@ p{
 .nameCityMobile{
     display: block;
     margin-right: 30px;
-    width: 100%;
+    width: 125%;
     margin-top: 10px;
+    font-size: 15.9px;
 }
     
 }
