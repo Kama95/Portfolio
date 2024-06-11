@@ -214,4 +214,12 @@ p{
     font-size: 15.9px;
 }
     
+h1.title{
+    margin-top: -48px;
+    font-size: 43px;
+    font-weight: 900;
+    line-height: 57px;
+    font-family: 'poppins';
+    width: 437px;
+}
 }
