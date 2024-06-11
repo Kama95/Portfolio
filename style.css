@@ -179,7 +179,8 @@ p{
         margin-right: 36px;
         background-color: var(--grey);
         width: 100px;
-        padding: 5px;
+        padding: 6px;
+        margin-top: -6px;
     }
     .leftLs{
         flex-direction: column;
