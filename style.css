@@ -257,3 +257,59 @@ h1.title{
         font-size: 32px;
     }
 }
+
+@media  screen and (max-width:360px) {
+    .aboutMe p{
+        font-size: 25px;
+    }
+    h1.title{
+        font-size: 38px;
+        line-height: 49px;
+    }
+
+    .nameCityMobile{
+        font-size: 16.9px;
+    }
+    
+}
+@media screen and (max-width:412px){
+    .aboutMe p{
+        font-size: 27px;
+        line-height: unset;
+    }
+}
+
+@media screen and (max-width:768px){
+    .navItems{
+        margin: 14px;
+    }
+    .leftLs{
+        margin-left: 30px;
+    }
+    li{font-size: 20px;}
+    .contactBox{
+        display: flex;
+        flex: none;
+    }
+    .contactMe{
+        font-size: 20px;
+    }
+    .title{
+        font-size: 82px;
+        line-height: 102px;
+
+    }
+
+    .aboutMe {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 94%;
+        margin: 18px;
+        margin-left: 27px;
+        margin-top: 50px;
+    }
+    .titleInfo{
+        margin-top: 70px;
+    }
+}
