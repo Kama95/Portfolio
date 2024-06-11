@@ -312,4 +312,30 @@ h1.title{
     .titleInfo{
         margin-top: 70px;
     }
+
+}
+
+@media screen and (max-width:1024px){
+  .leftLs{
+    margin-left: 30px;
+  }
+  li{
+    font-size: 21px;
+  }
+  .contactMe{
+    font-size: 20px;
+  }
+ .nameCity{
+    font-size: 20px;
+ }
+ .title{
+    line-height: 120px;
+ }
+ .aboutMe{width: 90%;
+margin-left: 50px;
+}
+.aboutMe p{
+    font-size: 40px;
+}
+.titleInfo{margin-top: 70px;}
 }
