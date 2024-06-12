@@ -150,13 +150,14 @@ p{
 }
 
 .sectionHeading{
+    margin-top: 30px;
     display: flex;
 justify-content: center;}
 
 .sectionHeading h1{
     font-size: 40px;
     font-weight: 700;
-    font-family: "roboto";
+    font-family: "poppins";
 }   
 
 
