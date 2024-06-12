@@ -103,17 +103,17 @@ body{font-family: 'inter',sans-serif;}
 .title{
     color: var(--darkest);
 margin-top: 50px;
-font-size: 100px;
+font-size: 70px;
 font-weight: 900;
-line-height: 50px;
 font-family: 'poppins' ;}
 
 p{
     color: var(--darkgrey);
-    font-size: 30px;
+    font-size: 20px;
     word-wrap: normal;
     font-family: 'roboto';
     font-weight: 300;
+    text-align: center;
 }
 
 .titleInfo{
@@ -123,15 +123,14 @@ p{
     flex-direction: column;
     margin-top: 100px;
     text-align: center;
+    width: 100%;
 
 }
 .aboutMe{
     display: flex;
     justify-content: center;
     align-items:center;
-    width: 75%;
-    margin: 50px;
-    margin-left: 200px;
+    width: 100%;
     margin-top: 100px;
 
 }
@@ -149,7 +148,52 @@ p{
 }
 /*mobile responsive*/
 
-@media screen and (max-width: 600px) {
+@media (max-width:375px) {
+    .titleInfo .aboutMe p{
+        font-size: 25px;
+    }
+    .titleInfo h1.title{
+        font-size: 38px;
+        line-height: 49px;
+    }
+
+    .nameCityMobile{
+        font-size: 16.9px;
+    }
+    
+}
+
+/*@media (max-width:412px){
+    .titleInfo .aboutMe p{
+        font-size: 27px;
+        line-height: unset;
+    }
+}*/
+
+@media (max-width: 414px){
+    .listItems .contactBox .contactMe{
+        margin-top: -7px;
+    }
+    }
+
+    @media (max-width: 430px) {
+        .contactBox .contactMe{ 
+         margin-top:-7px;
+         width:120px;}
+         
+         .container .navbar{
+             height: 70px;
+         }
+         .titleInfo .aboutMe{
+             margin-top: 22px;
+         }
+     
+        .titleInfo .aboutMe p{
+             font-size: 32px;
+         }
+     }
+
+@media (max-width: 600px) {
 
     .drpdwnbtn{
         display: block;
@@ -163,7 +207,7 @@ p{
         cursor: pointer;
         z-index: 1;
     }
-    .navItems{
+   .navbar .navItems{
         flex-direction: row;
         align-items: flex-start;
         margin: 10px;
@@ -235,51 +279,8 @@ h1.title{
         text-align: center;
 }
 }
-@media screen and (max-width: 414px){
-.contactMe{
-    margin-top: -7px;
-}
-}
 
-@media screen and (max-width: 430px) {
-   .contactMe{ 
-    margin-top:-7px;
-    width:120px;}
-    
-    .navbar{
-        height: 70px;
-    }
-    .aboutMe{
-        margin-top: 22px;
-    }
-
-    .aboutMe p{
-        font-size: 32px;
-    }
-}
-
-@media  screen and (max-width:360px) {
-    .aboutMe p{
-        font-size: 25px;
-    }
-    h1.title{
-        font-size: 38px;
-        line-height: 49px;
-    }
-
-    .nameCityMobile{
-        font-size: 16.9px;
-    }
-    
-}
-@media screen and (max-width:412px){
-    .aboutMe p{
-        font-size: 27px;
-        line-height: unset;
-    }
-}
-
-@media screen and (max-width:768px){
+/*@media (max-width:768px){
     .navItems{
         margin: 14px;
     }
@@ -315,7 +316,7 @@ h1.title{
 
 }
 
-@media screen and (max-width:1024px){
+/*@media (max-width:1024px){
   .leftLs{
     margin-left: 30px;
   }
