@@ -109,7 +109,7 @@ font-family: 'poppins' ;}
 
 p{
     color: var(--darkgrey);
-    font-size: 20px;
+    font-size: 30px;
     word-wrap: normal;
     font-family: 'roboto';
     font-weight: 300;
@@ -130,8 +130,10 @@ p{
     display: flex;
     justify-content: center;
     align-items:center;
-    width: 100%;
+    width: 80%;
+    margin-left: 170px;
     margin-top: 100px;
+    padding: 20px;
 
 }
 
@@ -146,6 +148,19 @@ p{
 .drpdwnbtn,h2 {
     display: none;
 }
+
+.sectionHeading{
+    display: flex;
+justify-content: center;}
+
+.sectionHeading h1{
+    font-size: 40px;
+    font-weight: 700;
+    font-family: "roboto";
+}   
+
+
+
 /*mobile responsive*/
 
 @media (max-width:375px) {
