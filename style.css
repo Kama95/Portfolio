@@ -164,13 +164,24 @@ justify-content: center;}
     display: flex;
     flex-direction: column;
     margin: 50px;
+    border: var(--darkgrey) solid 1px;
+    justify-content: center;
+    width: 400px;
+    border-radius: 5px;
 }
 
 .galleryItem1 img{
     width: 400px;
     height: auto;
     border-radius: 5px;
+        display: block;
+        transition: transform 0.3s;
+        z-index: -1;
+        background-size: contain;
 }
+    .kalebalika:hover{
+        transform: rotate(20deg) scale(1.1);}
+
 
 
 
