@@ -166,18 +166,19 @@ justify-content: center;}
     margin: 50px;
     border: var(--darkgrey) solid 1px;
     justify-content: center;
-    width: 400px;
+    width: 500px;
+align-items: center;
+    overflow: hidden;
     border-radius: 5px;
 }
 
 .galleryItem1 img{
-    width: 400px;
-    height: auto;
+    width: 600px;
     border-radius: 5px;
         display: block;
         transition: transform 0.3s;
         z-index: -1;
-        background-size: contain;
+        object-fit: cover;
 }
     .kalebalika:hover{
         transform: rotate(20deg) scale(1.1);}
