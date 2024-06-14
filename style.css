@@ -196,7 +196,7 @@ justify-content: center;}
         display: block;
         z-index: -1;
         object-fit: cover;
-
+        align-items: center;
 }
     /*.kalebalika:hover {
         transform: rotate(20deg) scale(1.1);}*/
