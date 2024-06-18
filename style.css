@@ -15,7 +15,9 @@ margin: 0;
 box-sizing: border-box;}
 
 
-body{font-family: 'inter',sans-serif;}
+body{font-family: 'inter',sans-serif;
+width: 100%;
+height: 100vh;}
 
 .navbar{
     display: flex;
@@ -268,7 +270,8 @@ justify-content: center;}
        .footerContainer {
         background-color: var(--darkgrey);
         display: flex;
-        justify-content: end;
+        justify-content: space-around;
+        align-items: center;
        }
 
 
@@ -279,6 +282,22 @@ justify-content: center;}
         border-bottom: 2px solid #7f7f7f;
         margin-bottom: 30px;
         padding: 0 0 5px 0;}
+
+        footer .linksContainer li{
+            list-style-type: none;
+            padding: 50px 0;
+        }
+        
+        footer .linksContainer ul li a {
+            text-decoration: none;
+            color: #7f7f7f;
+            margin-bottom: 10px;
+            display: inline-block;
+        }
+        .coreSkills ul li {
+            list-style-type: none;
+            text-decoration: none;
+        }
 /*mobile responsive*/
 
 @media (max-width:375px) {
