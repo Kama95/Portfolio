@@ -43,8 +43,8 @@ window.requestAnimationFrame(loop);
 
 const patternElement = document.getElementById('pattern');
 
-const countY = Math.ceil(patternElement.clientHeight /4)+1;
-const countX = Math.ceil(patternElement.clientWidth/4)+1;
+const countY = Math.ceil(patternElement.clientHeight /40)+1;
+const countX = Math.ceil(patternElement.clientWidth/40)+1;
 const gap =2;
 
 for (let i = 0; i < countY; i++) {
