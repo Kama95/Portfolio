@@ -130,11 +130,12 @@ height: 100vh;}
 }*/
 
 .title{
-    color: var(--darkest);
+    color: var(--lightgrey);
 margin-top: 50px;
 font-size: 70px;
 font-weight: 900;
-font-family: 'poppins' ;}
+font-family: 'poppins' 
+;}
 
 p{
     color: var(--darkgrey);
@@ -153,8 +154,15 @@ p{
     margin-top: 100px;
     text-align: center;
     width: 100%;
-    z-index: 2;
+    position: absolute;
+    z-index: 1;
 
+}
+
+.gallery{
+    background-color: #131217;
+    position: relative;
+    z-index: -1;
 }
 .aboutMe{
     display: flex;
@@ -182,14 +190,29 @@ p{
 .sectionHeading{
     margin-top: 30px;
     display: flex;
-justify-content: center;}
+justify-content: center;
+}
 
 .sectionHeading h1{
-    font-size: 40px;
     font-weight: 700;
     font-family: "poppins";
+    color:var(--lightgrey);
+    width: 300px;
+    text-align: center;
+    border-bottom: 3px solid var(--white);
+    font-size: 2rem;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    position: relative;
+    padding: 10px 0;
+    text-transform: uppercase
 }  
 
+.gallery h3{
+    color: var(--lightgrey);
+    
+
+}
 .galleryContainer{
     display: flex;
     flex-direction: row;
@@ -200,7 +223,7 @@ justify-content: center;}
     display: flex;
     flex-direction: column;
     margin: 15px;
-    border: var(--darkgrey) solid 1px;
+    border: var(--grey) solid 2px;
     justify-content: center;
     width: 500px;
     height: auto;
