@@ -268,7 +268,7 @@ justify-content: center;
         .galleryItem2 .button{
             position: absolute;
             top: 165%;
-            display: none;
+            display: block;
         }
 
 
