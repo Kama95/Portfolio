@@ -187,6 +187,14 @@ p{
     display: none;
 }
 
+.thinline{
+    width: 100%;
+    border: var(--lightgrey) 2px solid;
+}
+section.gallery{
+    margin-top: -30px;
+}
+
 .sectionHeading{
     margin-top: 30px;
     display: flex;
@@ -260,15 +268,13 @@ justify-content: center;
         transform: rotate(20deg) scale(1.1);}*/
 
        .galleryItem1 .button,.galleryItem3 .button{
-            top: 150%;
             display: none;
             position: absolute;
 
         }
         .galleryItem2 .button{
             position: absolute;
-            top: 165%;
-            display: block;
+            display: none;
         }
 
 
