@@ -385,11 +385,22 @@ justify-content: center;
         width: 320px;
         margin: 17px;
     }
+
     .gallery .galleryContainer .galleryItem1 .button,
     .gallery .galleryContainer .galleryItem2 .button,
     .gallery .galleryContainer .galleryItem3 .button{
-
+display: flex;
     }
+
+    .gallery .galleryContainer .galleryItem1 .button button a,
+    .gallery .galleryContainer .galleryItem2 .button button a,
+    .gallery .galleryContainer .galleryItem3 .button button a{
+        font-size: 10px;
+        padding: 10px;
+    }
+    .galleryItem1:hover,.galleryItem2:hover,.galleryItem3:hover{
+        transform: none;
+  }
 
 }
 
