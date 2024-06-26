@@ -465,9 +465,9 @@ display: flex;
             margin-left: -23px;
         }
     
-        .gallery .galleryContainer .galleryItem1,
-        .gallery .galleryContainer .galleryItem2,
-        .gallery .galleryContainer .galleryItem3{
+        .galleryContainer .galleryItem1,
+        .galleryContainer .galleryItem2,
+        .galleryContainer .galleryItem3{
             width: 350px;
             margin: 15px;
         }
@@ -478,9 +478,9 @@ display: flex;
     display: flex;
         }
     
-        .galleryContainer .galleryItem1 .button button a,
-        .galleryContainer .galleryItem2 .button button a,
-        .galleryContainer .galleryItem3 .button button a{
+        .galleryItem1 .button button a,
+        .galleryItem2 .button button a,
+        .galleryItem3 .button button a{
             font-size: 14px;
             padding: 10px;
         }
@@ -584,6 +584,10 @@ h1.title{
     margin: 10px;
     width: 350px;
 
+}
+.footerContainer{
+    display: flex;
+    flex-direction: column;
 }
 }
 
