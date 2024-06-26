@@ -168,8 +168,7 @@ p{
     display: flex;
     justify-content: center;
     align-items:center;
-    width: 80%;
-    margin-left: 170px;
+    width: 100%;
     margin-top: 100px;
     padding: 20px;
 
@@ -432,6 +431,43 @@ display: flex;
         .titleInfo .aboutMe p{
              font-size: 28px;
          }
+
+         nav .nameCityMobile{
+            font-size: 14.9px;
+            margin-right: 6px;
+        }
+        
+        .listItems .leftLs{
+            padding: 5px;
+        }
+    
+        nav .listItems.open{
+            margin-left: -23px;
+        }
+    
+        .gallery .galleryContainer .galleryItem1,
+        .gallery .galleryContainer .galleryItem2,
+        .gallery .galleryContainer .galleryItem3{
+            width: 350px;
+            margin: 15px;
+        }
+    
+        .gallery .galleryContainer .galleryItem1 .button,
+        .gallery .galleryContainer .galleryItem2 .button,
+        .gallery .galleryContainer .galleryItem3 .button{
+    display: flex;
+        }
+    
+        .galleryContainer .galleryItem1 .button button a,
+        .galleryContainer .galleryItem2 .button button a,
+        .galleryContainer .galleryItem3 .button button a{
+            font-size: 14px;
+            padding: 10px;
+        }
+        .galleryItem1:hover,.galleryItem2:hover,.galleryItem3:hover{
+            transform: none;
+      }
+    
      }
 
 @media (max-width: 600px) {
@@ -538,7 +574,7 @@ h1.title{
     }
 }
 /*@media (max-width:768px){
-    .navItems{
+    .container .navbar .navItems{
         margin: 14px;
     }
     .leftLs{
