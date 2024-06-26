@@ -358,18 +358,27 @@ justify-content: center;
 /*mobile responsive*/
 
 @media (max-width:375px) {
-    .titleInfo .aboutMe p{
-        font-size: 25px;
+  .background .titleInfo .aboutMe p{
+        font-size: 22px;
     }
     .titleInfo h1.title{
-        font-size: 38px;
-        line-height: 49px;
+        font-size: 30px;
+        margin-left: -15px;
+        margin-top: 50px;
     }
 
-    .nameCityMobile{
-        font-size: 16.9px;
+   nav .nameCityMobile{
+        font-size: 15.9px;
+        margin-right: 10px;
     }
     
+    .listItems .leftLs{
+        padding: 5px;
+    }
+
+    nav .listItems.open{
+        margin-left: -23px;
+    }
 }
 
 /*@media (max-width:412px){
@@ -469,11 +478,10 @@ justify-content: center;
     
 h1.title{
     margin-top: 25px;
-    font-size: 43px;
+    font-size: 35px;
     font-weight: 900;
-    line-height: 57px;
     font-family: 'poppins';
-    width: 437px;
+    width: 400px;
 }
 .aboutMe{
     width: 75%;
