@@ -339,7 +339,9 @@ justify-content: center;
         text-transform: uppercase;
         border-bottom: 2px solid #7f7f7f;
         margin-bottom: 30px;
-        padding: 0 0 5px 0;}
+        padding: 0 0 5px 0;
+        color: var(--white);
+    width: 300px;}
 
         footer .linksContainer li{
             list-style-type: none;
@@ -351,6 +353,10 @@ justify-content: center;
             color: #7f7f7f;
             display: inline-block;
         }
+        footer .linksContainer ul li:hover a{
+            color: var(--white);
+        }
+
         .coreSkills ul li {
             list-style-type:circle;
             text-decoration: none;
@@ -358,8 +364,14 @@ justify-content: center;
         }
 
         footer .connectWithUs ul{
-            list-style-type: none;
+            list-style-type: none   ;
 
+        }
+        .socialMediaIcon{
+            color: var(--lightgrey);
+        }
+        .socialMediaIcon:hover{
+            color: var(--white);
         }
 /*mobile responsive*/
 
