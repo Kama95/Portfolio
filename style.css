@@ -327,8 +327,11 @@ justify-content: center;
         display: flex;
         justify-content: space-around;
         align-items: center;
+
        }
 
+
+       
 
        footer .title {
         font-size: 20px;
@@ -340,18 +343,18 @@ justify-content: center;
 
         footer .linksContainer li{
             list-style-type: none;
-            padding: 50px 0;
+            padding: 10px;
         }
         
         footer .linksContainer ul li a {
             text-decoration: none;
             color: #7f7f7f;
-            margin-bottom: 10px;
             display: inline-block;
         }
         .coreSkills ul li {
-            list-style-type: none;
+            list-style-type:circle;
             text-decoration: none;
+            padding: 10px;
         }
 /*mobile responsive*/
 
