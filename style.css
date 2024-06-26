@@ -367,8 +367,8 @@ justify-content: center;
     }
 
    nav .nameCityMobile{
-        font-size: 15.9px;
-        margin-right: 10px;
+        font-size: 14.9px;
+        margin-right: 6px;
     }
     
     .listItems .leftLs{
@@ -383,7 +383,7 @@ justify-content: center;
     .gallery .galleryContainer .galleryItem2,
     .gallery .galleryContainer .galleryItem3{
         width: 320px;
-        margin: 17px;
+        margin: 10px;
     }
 
     .gallery .galleryContainer .galleryItem1 .button,
@@ -395,7 +395,7 @@ display: flex;
     .gallery .galleryContainer .galleryItem1 .button button a,
     .gallery .galleryContainer .galleryItem2 .button button a,
     .gallery .galleryContainer .galleryItem3 .button button a{
-        font-size: 10px;
+        font-size: 14px;
         padding: 10px;
     }
     .galleryItem1:hover,.galleryItem2:hover,.galleryItem3:hover{
@@ -444,7 +444,7 @@ display: flex;
         background-size:contain;
         border: none;
         outline: none;
-        margin-left: 10px;
+        margin-left: -3px;
         cursor: pointer;
         z-index: 1;
     }
