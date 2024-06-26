@@ -356,6 +356,11 @@ justify-content: center;
             text-decoration: none;
             padding: 10px;
         }
+
+        footer .connectWithUs ul{
+            list-style-type: none;
+
+        }
 /*mobile responsive*/
 
 @media (max-width:375px) {
