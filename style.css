@@ -353,8 +353,10 @@ justify-content: center;
             color: var(--lightgrey);
             display: inline-block;
         }
-        footer .linksContainer ul li:hover a{
+        footer .linksContainer ul li:hover a,
+        footer .coreSkills ul:hover li {
             color: var(--white);
+    
         }
 
         .coreSkills ul li {
