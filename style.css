@@ -289,7 +289,7 @@ justify-content: center;
          }
          
          .galleryItem1:hover,.galleryItem2:hover,.galleryItem3:hover{
-               transform: scale(1.2);
+               transform: scale(1.1);
          }
          
          button{
