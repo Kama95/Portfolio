@@ -325,6 +325,7 @@ justify-content: center;
        .footerContainer {
         background-color: var(--darkgrey);
         display: flex;
+        height: 30vh;
         justify-content: space-around;
         align-items: center;
 
