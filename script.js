@@ -64,3 +64,12 @@ for (let i = 0; i < countY; i++) {
       patternElement.appendChild(hexagon);
     }
   }
+
+  document.querySelectorAll('a[href^="#"]').forEach(anchor =>{
+anchor.addEventListener('click' ,function(e)
+  {e.preventDefault(); 
+    document.querySelector(this.getAttribute('href')).scrollIntoView({
+        behavior: 'smooth'
+    });
+  });
+});
