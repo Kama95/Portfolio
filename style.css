@@ -246,6 +246,7 @@ justify-content: center;
         display: block;
         z-index: -1;
         object-fit: contain;
+        transition: 0.3s ease;
 
 }
 .galleryItem2 img{
@@ -254,6 +255,7 @@ justify-content: center;
         display: block;
         z-index: -1;
         object-fit: contain;
+        transition: 0.3s ease;
 }
 .galleryItem3 img{
     width: 100%;
@@ -261,6 +263,7 @@ justify-content: center;
         display: block;
         z-index: -1;
         object-fit: contain;
+        transition: 0.3s ease;
 
 }
     /*.kalebalika:hover {
