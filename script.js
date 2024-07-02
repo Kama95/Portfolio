@@ -81,3 +81,19 @@ function openModal(){
 function closeModal(){
     document.getElementById('myModal').style.display='none';
 }
+
+let slideIndex=1;
+showSlides(slideIndex);
+
+function plusSlides(n){
+    showSlides(slideIndex += n);
+}
+
+function currentSlide(n){
+    showSlides(currentSlide = n);
+}
+
+function showSlides(n){
+    let i;
+    let slides = document.getElementsByClassName('slides');
+}
