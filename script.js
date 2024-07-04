@@ -75,7 +75,15 @@ anchor.addEventListener('click' ,function(e)
 });
 
 function openModal(){
-    document.getElementById('myModal').style.display='block';
+  let modal = document.getElementById('myModal');
+    modal.style.cssText=`
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    background-color: rgba(0,0,0,0.9);
+    padding:20px;
+    flex-direction:column;
+    `;
 }
 
 function closeModal(){
