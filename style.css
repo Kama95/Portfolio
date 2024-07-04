@@ -352,9 +352,10 @@ justify-content: center;
         position: relative;
         margin: auto;
         padding: 0;
-        width:80%;
+        width: 100%;
         max-width: 700px;
        }
+       
        .close{
         color: white;
         position:absolute;
@@ -372,6 +373,12 @@ justify-content: center;
        }
        .slides{
         display: none;
+       }
+       .slides img {
+        display: block;
+        width: 100%;
+        margin: auto;
+        height: auto;
        }
        
        .pre, .next{
@@ -396,6 +403,8 @@ justify-content: center;
        .next:hover, .pre:hover{
         background-color: rgba(0,0,0,0.9);
        }
+ 
+
 
        footer .title {
         font-size: 20px;
