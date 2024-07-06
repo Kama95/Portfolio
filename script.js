@@ -1,4 +1,4 @@
-(document).ready(function(){
+$(document).ready(function(){
     $(".drpdwnbtn").on("click",function(){
         $(".navItems .listItems").toggleClass("open");
 
@@ -8,11 +8,13 @@
 
 console.log("Javascript is working alright");
 
+//initialise mouse posiition
 let mousePosition = {
     x:0,
     y:0
 };
 
+//update position of mouse upon hover.
 document.addEventListener("mousemove", (mouse) =>{
     mousePosition ={
         x:mouse.clientX,
@@ -23,26 +25,25 @@ document.addEventListener("mousemove", (mouse) =>{
     
 });
 
-
+//Animation to continiousl updated position of gradient
+//and make gradient follow mouse hover.
 const loop = ()=>{
     const gradientElement = document.getElementById('gradient');
 
     if (gradientElement){
-        //const rect = gradientElement.getBoundingClientRect();
-        //const elementWidth =rect.width;
-        //const elementHeight=rect.height;
 
-        
     gradientElement.style.transform =
     `translate(${mousePosition.x}px, ${mousePosition.y}px)`;
     }
         window.requestAnimationFrame(loop);
 };
 
+
 window.requestAnimationFrame(loop);
 
-const patternElement = document.getElementById('pattern');
+const patternElement = document.getElementById('pattern');//grab pattern element
 
+//multiply or increase the hexagpn shape to cover eniter backgroiund.
 const countY = Math.ceil(patternElement.clientHeight /40)+1;
 const countX = Math.ceil(patternElement.clientWidth/40)+1;
 const gap =2;
@@ -65,6 +66,7 @@ for (let i = 0; i < countY; i++) {
     }
   }
 
+  //eanble smooth scrolling for acnhor elements within the page
   document.querySelectorAll('a[href^="#"]').forEach(anchor =>{
 anchor.addEventListener('click' ,function(e)
   {e.preventDefault(); 
@@ -73,6 +75,8 @@ anchor.addEventListener('click' ,function(e)
     });
   });
 });
+
+//function to open modal when button is clicked.
 
 function openModal(){
   let modal = document.getElementById('myModal');
@@ -86,13 +90,16 @@ function openModal(){
     `;
 }
 
+//function to close modal when close button is clicked
 function closeModal(){
     document.getElementById('myModal').style.display='none';
 }
 
+//intialise slides
 let slideIndex=1;
 showSlides(slideIndex);
 
+//function to move to next slide
 function plusSlides(n){
     showSlides(slideIndex += n);
 }
@@ -100,7 +107,7 @@ function plusSlides(n){
 function currentSlide(n){
     showSlides(currentSlide = n);
 }
-
+//function to show slides.
 function showSlides(n){
     let i;
     let slides = document.getElementsByClassName("slides");
