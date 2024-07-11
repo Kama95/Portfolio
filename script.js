@@ -2,6 +2,15 @@ $(document).ready(function(){
     $(".drpdwnbtn").on("click",function(){
         $(".navItems .listItems").toggleClass("open");
 
+        //create new list
+        var newList =$(`<ul class="newList"></ul>`);
+
+        //append listItems to new list
+        newList.append(`<li>ABOUT ME </li>`);
+        newList.append(`<li>PROOJECTS </li>`);
+        newList.append(`<li>CONTACT ME</li>`);
+    
+        $(".navItems").append(newList);
     });
 }
 );
