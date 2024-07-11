@@ -25,8 +25,10 @@ document.addEventListener("mousemove", (mouse) =>{
     
 });
 
+
 //Animation to continiousl updated position of gradient
 //and make gradient follow mouse hover.
+
 const loop = ()=>{
     const gradientElement = document.getElementById('gradient');
 
@@ -105,7 +107,7 @@ function plusSlides(n){
 }
 
 function currentSlide(n){
-    showSlides(currentSlide = n);
+    showSlides(slideIndex = n);
 }
 //function to show slides.
 function showSlides(n){
