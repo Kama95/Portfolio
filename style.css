@@ -506,7 +506,7 @@ justify-content: center;
     .gallery .galleryContainer .galleryItem1 .button,
     .gallery .galleryContainer .galleryItem2 .button,
     .gallery .galleryContainer .galleryItem3 .button{
-display: flex;
+display: none;
     }
 
     .gallery .galleryContainer .galleryItem1 .button button a,
@@ -573,7 +573,12 @@ display: flex;
         .gallery .galleryContainer .galleryItem1 .button,
         .gallery .galleryContainer .galleryItem2 .button,
         .gallery .galleryContainer .galleryItem3 .button{
-    display: flex;
+    display: none;
+        }
+        .gallery .galleryContainer .galleryItem1:hover .button,
+        .gallery .galleryContainer .galleryItem2:hover .button,
+        .gallery .galleryContainer .galleryItem3:hover .button{
+            display: flex;
         }
     
         .galleryItem1 .button button a,
