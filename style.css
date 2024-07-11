@@ -424,7 +424,7 @@ justify-content: center;
         margin: 70px auto 30px auto;
         padding: 0 0 5px 0;
         color: var(--white);
-    width: 300px;}
+    width: 100%;}
 
         footer .linksContainer li{
             list-style-type: none;
