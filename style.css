@@ -634,12 +634,27 @@ display: flex;
     display: none;
 }
 
+.newList{
+    position: absolute;
+    background-color: var(--grey);
+    list-style: none; 
+    left: 50px;
+    width: 180px;
+    height: auto; 
+    margin-top: 5px;           
+}
+.newList li{
+    padding: 10px;
+    margin: 10px;
+}
+
 .navItems .listItems.open{
     overflow: visible;
 }
 .nameCityMobile{
     display: block;
-    margin-right: 30px;
+    position: relative;
+    left: 70px;
     width: 125%;
     margin-top: 10px;
     font-size: 15.9px;

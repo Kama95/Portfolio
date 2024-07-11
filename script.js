@@ -1,19 +1,26 @@
 $(document).ready(function(){
+    let listAppend = false;
     $(".drpdwnbtn").on("click",function(){
-        $(".navItems .listItems").toggleClass("open");
 
+        if(!listAppend){
+        $(".navItems .listItems").toggleClass("open");
+        
+        
         //create new list
         var newList =$(`<ul class="newList"></ul>`);
 
         //append listItems to new list
-        newList.append(`<li>ABOUT ME </li>`);
-        newList.append(`<li>PROOJECTS </li>`);
-        newList.append(`<li>CONTACT ME</li>`);
+        newList.append(`<li><a>ABOUT ME</a></li>`);
+        newList.append(`<li><a>PROJECTS</a></li>`);
+        newList.append(`<li><a>CONTACT ME</a></li>`);
     
-        $(".navItems").append(newList);
+        $(".navItems").append(newList); //append New List to navigation bar
+
+        listAppend=true;
+        }
+        $(".newList").toggle();
     });
-}
-);
+});
 
 console.log("Javascript is working alright");
 
