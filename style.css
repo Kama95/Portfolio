@@ -457,6 +457,11 @@ justify-content: center;
         .socialMediaIcon:hover{
             color: var(--white);
         }
+
+        .copyright{
+            padding: 5px;
+            margin-left: 40%;
+        }
 /*mobile responsive*/
 
 @media (max-width:375px) {
