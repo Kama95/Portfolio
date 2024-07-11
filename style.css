@@ -131,10 +131,10 @@ height: 100vh;}
 
 .title{
     color: var(--lightgrey);
-margin-top: 50px;
-font-size: 70px;
-font-weight: 900;
-font-family: 'poppins' 
+margin-top: 300px;
+font-size: 100px;
+font-weight: bolder;
+font-family: 'roboto' 
 ;}
 
 p{
@@ -168,9 +168,10 @@ p{
     display: flex;
     justify-content: center;
     align-items:center;
-    width: 100%;
-    margin-top: 100px;
+    width: 75%;
+    margin: 100px auto auto auto;
     padding: 20px;
+
 
 }
 
@@ -469,9 +470,8 @@ justify-content: center;
         font-size: 22px;
     }
     .titleInfo h1.title{
-        font-size: 30px;
-        margin-left: -15px;
-        margin-top: 50px;
+        font-size: 40px;
+        
     }
 
    nav .nameCityMobile{
@@ -661,15 +661,15 @@ display: flex;
 }
     
 h1.title{
-    margin-top: 25px;
-    font-size: 35px;
+    margin-top: 150px;
+    font-size: 50px;
     font-weight: 900;
-    font-family: 'poppins';
-    width: 400px;
+    font-family: 'roboto';
+    width: 100%;
 }
 .aboutMe{
-    width: 75%;
-    margin: 50px;
+    width: 100%;
+    margin: auto;
     margin-top: 50px;
 }
 
