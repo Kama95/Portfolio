@@ -675,14 +675,14 @@ display: none;
 }
     
 h1.title{
-    margin-top: 250px;
+    margin-top: 150px;
     font-size: 50px;
     font-weight: 900;
     font-family: 'roboto';
     width: 100%;
 }
 .aboutMe{
-    width: 100%;
+    width: 80%;
     margin: auto;
     margin-top: 50px;
 }
