@@ -187,21 +187,24 @@ p{
     text-align: center;
     font-size: 20px; 
     padding: 10px;
+    flex: 1;
 }
 .hardSkills .React, .hardSkills .JavaSCript{
     width: 2.5in;
 }
 
 .skill img{
-    width:1in;
+    width:0.8in;
     padding: 20px;
     align-items: center;   
+    opacity: 0.5;
 }
 .skill h6{
     align-items: center;
     font-size: bold;
     margin-block-start: 8px;
     margin-block-start: 5px;
+    color: var(--lightgrey);
 }
 
 
@@ -706,8 +709,8 @@ display: none;
 }
     
 h1.title{
-    margin-top: 150px;
-    font-size: 50px;
+    margin-top: 120px;
+    font-size: 44px;
     font-weight: 900;
     font-family: 'roboto';
     width: 100%;
@@ -715,15 +718,53 @@ h1.title{
 .aboutMe{
     width: 80%;
     margin: auto;
-    margin-top: 50px;
+    margin-top: 40px;
 }
 
 .aboutMe p {
-        font-size: 25px;
+        font-size: 22px;
         font-weight: 300;
         text-align: center;
 }
 
+.hardSkills {
+    margin-top: 10px;
+    display: grid;
+    grid-template-columns: repeat(2, 0fr);
+gap: 5px;
+}
+
+.hardSkills .React, .hardSkills .Node{
+margin-top: 20px;
+}
+.hardSkills .CSS{
+margin-top: 30px;
+}
+
+.hardSkills .JavaSCript{
+    margin-top: 27px;
+}
+
+.hardSkills div.JavaSCript, .hardSkills div.React{
+width: 2in;
+}
+.hard
+
+.skill h6{
+    font-size: 10px;
+}
+
+.hardSkills .skill{
+    width: 2in;  
+}
+
+
+.skill img{
+    width: 0.7in;
+}
+.skill h6{
+    font-size: ;
+}
 .galleryContainer{
     display: flex;
     flex-direction: column;
