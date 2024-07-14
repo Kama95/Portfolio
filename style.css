@@ -177,19 +177,23 @@ p{
     display: flex;
     flex-direction: row;
     justify-content: center;
-    margin-top: 100px;
+    margin: 100px;
 }
 
 .skill{
     width: 2in;
     height: auto;
-    margin:200px auto auto auto; 
+    margin:auto; 
     text-align: center;
     font-size: 20px; 
     padding: 10px;
     flex: 1;
 }
-.hardSkills .React, .hardSkills .JavaSCript{
+.hardSkills .React{
+    width: 2.5in;
+}
+
+.hardSkills .JavaSCript{
     width: 2.5in;
 }
 
@@ -582,8 +586,10 @@ display: none;
          }
      
         .titleInfo .aboutMe p{
-             font-size: 28px;
+             font-size: 22px;
          }
+
+         
 
          nav .nameCityMobile{
             font-size: 14.9px;
@@ -598,6 +604,14 @@ display: none;
             margin-left: -23px;
         }
     
+        .hardSkills .skill.JavaSCript{
+
+            margin-left: 25px;
+        }
+        .hardSkills .skill.Node{
+            margin-left: 25px;
+        }
+
         .galleryContainer .galleryItem1,
         .galleryContainer .galleryItem2,
         .galleryContainer .galleryItem3{
@@ -769,9 +783,6 @@ width: 2in;
 .skill img{
     width: 0.7in;
 }
-.skill h6{
-    font-size: ;
-}
 .galleryContainer{
     display: flex;
     flex-direction: column;
@@ -796,64 +807,4 @@ width: 2in;
     .galleryContainer{
         flex-direction: column;
     }
-}
-/*@media (max-width:768px){
-    .container .navbar .navItems{
-        margin: 14px;
-    }
-    .leftLs{
-        margin-left: 30px;
-    }
-    li{font-size: 20px;}
-    .contactBox{
-        display: flex;
-        flex: none;
-    }
-    .contactMe{
-        font-size: 20px;
-    }
-    .title{
-        font-size: 82px;
-        line-height: 102px;
-
-    }
-
-    .aboutMe {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        width: 94%;
-        margin: 18px;
-        margin-left: 27px;
-        margin-top: 50px;
-    }
-    .titleInfo{
-        margin-top: 70px;
-    }
-
-}
-
-/*@media (max-width:1024px){
-  .leftLs{
-    margin-left: 30px;
-  }
-  li{
-    font-size: 21px;
-  }
-  .contactMe{
-    font-size: 20px;
-  }
- .nameCity{
-    font-size: 20px;
- }
- .title{
-    line-height: 120px;
- }
- .aboutMe{width: 90%;
-margin-left: 50px;
-}
-.aboutMe p{
-    font-size: 40px;
-}
-.titleInfo{margin-top: 70px;}
 }
