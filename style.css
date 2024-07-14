@@ -207,7 +207,7 @@ p{
     align-items: center;
     font-size: bold;
     margin-block-start: 8px;
-    margin-block-start: 5px;
+    margin-block-end: 5px;
     color: var(--lightgrey);
     font-size: 10.5px;
 }
@@ -513,15 +513,40 @@ justify-content: center;
         }
 /*mobile responsive*/
 
-@media (max-width:375px) {
+@media (max-width:390px) {
   .background .titleInfo .aboutMe p{
-        font-size: 22px;
+        font-size: 20px;
     }
     .titleInfo h1.title{
-        font-size: 40px;
-        
+        font-size: 35px;
+        margin-top: 100px;
     }
 
+    .hardSkills{
+        margin-top: 20px;
+    }
+    .titleInfo .hardSkills .skill{
+        width: 2in;
+    }
+    .hardSkills .skill img{
+        padding: 22px;
+    }
+    .titleInfo .hardSkills .skill.JavaSCript{
+        margin-left: 0;
+    }
+    .titleInfo .hardSkills .skill.CSS{
+        margin-top: 0px;
+    }
+    .titleInfo .hardSkills .skill.JavaSCript{
+        margin-top: 10px;
+    }
+    .titleInfo .hardSkills .skill.React{
+        margin-top: 0px;
+    }
+    .titleInfo .hardSkills .skill.Node{
+        margin-top: 5px;
+        margin-left: 10px;
+    }
    nav .nameCityMobile{
         font-size: 14.9px;
         margin-right: 6px;
@@ -725,7 +750,7 @@ display: none;
     
 h1.title{
     margin-top: 120px;
-    font-size: 44px;
+    font-size: 40px;
     font-weight: 900;
     font-family: 'roboto';
     width: 100%;
