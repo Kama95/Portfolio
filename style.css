@@ -205,6 +205,7 @@ p{
     margin-block-start: 8px;
     margin-block-start: 5px;
     color: var(--lightgrey);
+    font-size: 10.5px;
 }
 
 
@@ -734,15 +735,21 @@ h1.title{
 gap: 5px;
 }
 
-.hardSkills .React, .hardSkills .Node{
+.hardSkills .React{
 margin-top: 20px;
 }
+.hardSkills .Node{
+    margin-top: 26px;
+    margin-left: 80px;
+
+}
 .hardSkills .CSS{
-margin-top: 30px;
+margin-top: 37px;
 }
 
 .hardSkills .JavaSCript{
-    margin-top: 27px;
+    margin-top: 46px;
+    margin-left: 80px;
 }
 
 .hardSkills div.JavaSCript, .hardSkills div.React{
