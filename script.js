@@ -10,9 +10,9 @@ $(document).ready(function(){
         var newList =$(`<ul class="newList"></ul>`);
 
         //append listItems to new list
-        newList.append(`<li><a>ABOUT ME</a></li>`);
-        newList.append(`<li><a>PROJECTS</a></li>`);
-        newList.append(`<li><a>CONTACT ME</a></li>`);
+        newList.append(`<li><a href="#about">ABOUT ME</a></li>`);
+        newList.append(`<li><a href ="#projects">PROJECTS</a></li>`);
+        newList.append(`<li><a href="#footer">CONTACT ME</a></li>`);
     
         $(".navItems").append(newList); //append New List to navigation bar
 
