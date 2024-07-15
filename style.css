@@ -163,6 +163,13 @@ p{
 
 }
 
+.titleInfo h6{
+    font-family: "poppins";
+    font-size: 30px;
+    color: var(--lightgrey);
+    margin-top: 40px;
+    font-weight: 500;
+}
 .gallery{
     background-color: #131217;
     position: relative;
@@ -743,7 +750,7 @@ h1.title{
 .aboutMe{
     width: 80%;
     margin: auto;
-    margin-top: 100px;
+    margin-top: 80px;
 }
 
 .aboutMe p {
