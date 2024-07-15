@@ -33,6 +33,10 @@ height: 100vh;}
     margin: 20px;
 }
 
+.navItems a{
+    color: var(--dark);
+    font-size: 20px;
+}
 .contactMe{
     margin-right: 70px;
     color: var(--white);
@@ -177,11 +181,13 @@ p{
     display: flex;
     flex-direction: row;
     justify-content: center;
-    margin: 100px;
+    margin: 50px;
+    gap: 30px;
 }
 
+
 .skill{
-    width: 2in;
+    width: 3in;
     height: auto;
     margin:auto; 
     text-align: center;
@@ -209,7 +215,7 @@ p{
     margin-block-start: 8px;
     margin-block-end: 5px;
     color: var(--lightgrey);
-    font-size: 10.5px;
+    font-size: 12px;
 }
 
 
@@ -519,34 +525,10 @@ justify-content: center;
     }
     .titleInfo h1.title{
         font-size: 35px;
-        margin-top: 100px;
+        margin-top: 200px;
     }
 
-    .hardSkills{
-        margin-top: 20px;
-    }
-    .titleInfo .hardSkills .skill{
-        width: 2in;
-    }
-    .hardSkills .skill img{
-        padding: 22px;
-    }
-    .titleInfo .hardSkills .skill.JavaSCript{
-        margin-left: 0;
-    }
-    .titleInfo .hardSkills .skill.CSS{
-        margin-top: 0px;
-    }
-    .titleInfo .hardSkills .skill.JavaSCript{
-        margin-top: 10px;
-    }
-    .titleInfo .hardSkills .skill.React{
-        margin-top: 0px;
-    }
-    .titleInfo .hardSkills .skill.Node{
-        margin-top: 5px;
-        margin-left: 10px;
-    }
+    
    nav .nameCityMobile{
         font-size: 14.9px;
         margin-right: 6px;
@@ -630,11 +612,10 @@ display: none;
         }
     
         .hardSkills .skill.JavaSCript{
-
-            margin-left: 25px;
+            margin-left: 10px;
         }
         .hardSkills .skill.Node{
-            margin-left: 25px;
+            margin-left: 10px;
         }
 
         .galleryContainer .galleryItem1,
@@ -721,7 +702,9 @@ display: none;
     align-items: self-end;
     display: none;
 }
-
+.navItems a{
+    font-size: 15px;
+}
 .newList{
     position: absolute;
     background-color: var(--grey);
@@ -749,8 +732,8 @@ display: none;
 }
     
 h1.title{
-    margin-top: 120px;
-    font-size: 40px;
+    margin-top: 110px;
+    font-size: 35px;
     font-weight: 900;
     font-family: 'roboto';
     width: 100%;
@@ -758,7 +741,7 @@ h1.title{
 .aboutMe{
     width: 80%;
     margin: auto;
-    margin-top: 40px;
+    margin-top: 100px;
 }
 
 .aboutMe p {
@@ -797,7 +780,7 @@ width: 2in;
 .hard
 
 .skill h6{
-    font-size: 10px;
+    font-size: 15px;
 }
 
 .hardSkills .skill{
