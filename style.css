@@ -589,9 +589,11 @@ display: none;
              height: 70px;
          }
          .titleInfo .aboutMe{
-             margin-top: 22px;
+             margin-top: 40px;
          }
-     
+     .background .titleInfo .title {
+        margin-top: 100px;
+     }
         .titleInfo .aboutMe p{
              font-size: 22px;
          }
@@ -733,7 +735,7 @@ display: none;
     
 h1.title{
     margin-top: 110px;
-    font-size: 35px;
+    font-size: 50px;
     font-weight: 900;
     font-family: 'roboto';
     width: 100%;
@@ -803,10 +805,31 @@ width: 2in;
 
 }
 .footerContainer{
-    display: flex;
-    flex-direction: column;
+    display: inline-block;
+    width:100%;
+    margin: auto;
 }
 
+.footerContainer .title{
+    width: 50%;
+    margin-left: 40px;
+}
+.footerContainer .coreSkills ul{
+    margin-left: 80px;
+}
+
+.footerContainer .linksContainer ul {
+    margin-left: 50px;
+}
+.footerContainer .connectWithUs ul{
+    margin-left: 50px;
+    margin-bottom: 50px;
+}
+
+.copyright h3{
+    font-size: 15px;
+
+}
 .contactMe{display:none}
 }
 
