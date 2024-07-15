@@ -802,7 +802,9 @@ width: 2in;
 .galleryItem1,.galleryItem2,.galleryItem3{
     margin: 10px;
     width: 350px;
-
+}
+div.modal#myModal{
+    width: 100%;
 }
 .footerContainer{
     display: inline-block;
@@ -816,14 +818,17 @@ width: 2in;
 }
 .footerContainer .coreSkills ul{
     margin-left: 80px;
+    width: 50%;
 }
 
 .footerContainer .linksContainer ul {
+    width: 50%;
     margin-left: 50px;
 }
 .footerContainer .connectWithUs ul{
     margin-left: 50px;
     margin-bottom: 50px;
+    width: 50%;
 }
 
 .copyright h3{
