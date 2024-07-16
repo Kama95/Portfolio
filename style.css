@@ -177,6 +177,7 @@ section {
   min-height: fit-content;
 }
 .section-container {
+    margin: 0 50px;
   display: flex;
 }
 
@@ -188,6 +189,9 @@ section {
 }
 section#about{
     background-color: #131217;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 .section__text {
   align-self: center;
@@ -203,6 +207,8 @@ section#about{
   text-align: center;
   padding-top: 30px;
   font-weight: 400;
+  color: var(--grey);
+  margin-bottom: -30px;
 }
 
 .section__text__p2 { 
@@ -261,6 +267,10 @@ section#about{
 .details-container p{
     color: white;
 }
+
+.details-container img.icon{
+    filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(0deg) brightness(100%) contrast(100%);
+}
 .section-container {
   gap: 4rem;
   height: 80%;
@@ -272,12 +282,14 @@ section#about{
   margin: auto 0;
 }
 
-#about .title {
+/*#about .title {
   font-size: 3rem;
   text-align: center;
   margin-top: 10px;
+  border-bottom: white 2px solid;
+  width: 300px;
 }
-
+*/
 .gallery{
     background-color: #131217;
     position: relative;
@@ -317,16 +329,16 @@ section.gallery{
 justify-content: center;
 }
 
-.sectionHeading h1{
-    font-weight: 700;
+.sectionHeading h1, #about h1{
+    font-weight: 500;
     font-family: "poppins";
     color:var(--lightgrey);
     width: 300px;
     text-align: center;
     border-bottom: 3px solid var(--white);
-    font-size: 2rem;
-    margin-top: 50px;
-    margin-bottom: 50px;
+    font-size: 3rem;
+    margin-top: 30px;
+    margin-bottom: 30px;
     position: relative;
     padding: 10px 0;
     text-transform: uppercase
