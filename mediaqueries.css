@@ -51,7 +51,7 @@
 @media screen and (max-width: 600px) {
   #contact,
   footer {
-    height: 87vh;
+    height: 92vh;
   }
   .details-container p{
   font-size: 20px;
@@ -269,7 +269,156 @@ div.modal#myModal{
 
 }
 .contactMe{display:none}
+
 }
+@media screen and (max-width:500px) {
+  section#about{
+height: 135vh;
+  }
+}
+@media screen and (max-width:439px){
+    
+section#about{
+  height: 150vh;
+}
+}
+
+@media (max-width: 430px) {
+  .contactBox .contactMe{ 
+   margin-top:-7px;
+   width:120px;}
+   
+   .container .navbar{
+       height: 70px;
+   }
+   .titleInfo .aboutMe{
+       margin-top: 40px;
+   }
+.background .titleInfo .title {
+  margin-top: 100px;
+}
+  .titleInfo .aboutMe p{
+       font-size: 22px;
+   }
+
+   
+
+   nav .nameCityMobile{
+      font-size: 14.9px;
+      margin-right: 6px;
+  }
+  
+  .listItems .leftLs{
+      padding: 5px;
+  }
+
+  nav .listItems.open{
+      margin-left: -23px;
+  }
+
+  section#about{
+      height: 150vh;
+  }   
+  
+  div.text-container{
+      font-size: 22px;
+  }
+
+  .galleryContainer .galleryItem1,
+  .galleryContainer .galleryItem2,
+  .galleryContainer .galleryItem3{
+      width: 350px;
+      margin: 15px;
+  }
+
+  .gallery .galleryContainer .galleryItem1 .button,
+  .gallery .galleryContainer .galleryItem2 .button,
+  .gallery .galleryContainer .galleryItem3 .button{
+display: none;
+  }
+  .gallery .galleryContainer .galleryItem1:hover .button,
+  .gallery .galleryContainer .galleryItem2:hover .button,
+  .gallery .galleryContainer .galleryItem3:hover .button{
+      display: flex;
+  }
+
+  .galleryItem1 .button button a,
+  .galleryItem2 .button button a,
+  .galleryItem3 .button button a{
+      font-size: 14px;
+      padding: 10px;
+  }
+  .galleryItem1:hover,.galleryItem2:hover,.galleryItem3:hover{
+      transform: none;
+}
+
+}
+
+@media screen and (max-width:412px){
+  section#about{
+    height: 160vh;
+  }
+}
+@media screen and (max-width:390px) {
+  .background .titleInfo .aboutMe p{
+        font-size: 20px;
+    }
+    .titleInfo h1.title{
+        font-size: 35px;
+        margin-top: 200px;
+    }
+
+    
+   nav .nameCityMobile{
+        font-size: 14.9px;
+        margin-right: 6px;
+    }
+    
+    .listItems .leftLs{
+        padding: 5px;
+    }
+
+    nav .listItems.open{
+        margin-left: -23px;
+    }
+
+    section#about{
+        height: 170vh;
+    }
+
+    .gallery .galleryContainer .galleryItem1,
+    .gallery .galleryContainer .galleryItem2,
+    .gallery .galleryContainer .galleryItem3{
+        width: 320px;
+        margin: 10px;
+    }
+
+    .gallery .galleryContainer .galleryItem1 .button,
+    .gallery .galleryContainer .galleryItem2 .button,
+    .gallery .galleryContainer .galleryItem3 .button{
+display: none;
+    }
+
+    .gallery .galleryContainer .galleryItem1 .button button a,
+    .gallery .galleryContainer .galleryItem2 .button button a,
+    .gallery .galleryContainer .galleryItem3 .button button a{
+        font-size: 14px;
+        padding: 10px;
+    }
+    .galleryItem1:hover,.galleryItem2:hover,.galleryItem3:hover{
+        transform: none;
+  }
+
+}
+@media screen and (max-width:362px) {
+  section#about{
+    height: 200vh;
+  }
+  
+}
+
+
+
 
 
 
