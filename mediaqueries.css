@@ -34,7 +34,10 @@
   .section-container {
     height: fit-content;
   }
-  section {}
+
+  .text-container p{
+    font-size: 20px;
+  }
   .section__pic-container {
     width: 275px;
     height: 275px;
@@ -50,6 +53,22 @@
   footer {
     height: 40vh;
   }
+
+  .details-container p{
+  font-size: 20px;
+  }
+
+  section#about{
+    height: 120vh;
+  }
+  #about h1{
+    font-size: 2rem;
+  margin-bottom: 10px;
+padding: 0 0 5px 0;}
+  #about .section__text__p1{
+    font-size: 17px;
+  }
+
   #profile {
     height: 83vh;
     margin-bottom: 0;
@@ -98,4 +117,5 @@
   .text-container {
     text-align: justify;
   }
+  .
 }
