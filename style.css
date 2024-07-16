@@ -170,6 +170,104 @@ p{
     margin-top: 40px;
     font-weight: 500;
 }
+
+section {
+  height: 96vh;
+  box-sizing: border-box;
+  min-height: fit-content;
+}
+.section-container {
+  display: flex;
+}
+
+.section__pic-container {
+  display: flex;
+  height: 400px;
+  width: 400px;
+  margin: auto 0;
+}
+section#about{
+    background-color: black;
+}
+.section__text {
+  align-self: center;
+  text-align: center;
+}
+
+.section__text p {
+  font-weight: 600;
+}
+
+.section__text__p1 {
+    font-size: 20px;
+  text-align: center;
+}
+
+.section__text__p2 {
+  font-size: 1.75rem;
+  margin-bottom: 1rem;
+}
+.icon {
+  cursor: pointer;
+  height: 2rem;
+}
+#about {
+  position: relative;
+}
+
+.about-containers {
+  gap: 2rem;
+  margin-bottom: 2rem;
+  margin-top: 2rem;
+}
+
+.about-details-container {
+  justify-content: center;
+  flex-direction: column;
+}
+
+.about-containers,
+.about-details-container {
+  display: flex;
+}
+
+.about-pic {
+  border-radius: 2rem;
+}
+
+.arrow {
+  position: absolute;
+  right: -5rem;
+  bottom: 2.5rem;
+}
+
+.details-container {
+  padding: 1.5rem;
+  flex: 1;
+  background: white;
+  border-radius: 2rem;
+  border: rgb(53, 53, 53) 0.1rem solid;
+  border-color: rgb(163, 163, 163);
+  text-align: center;
+}
+
+.section-container {
+  gap: 4rem;
+  height: 80%;
+}
+
+.section__pic-container {
+  height: 400px;
+  width: 400px;
+  margin: auto 0;
+}
+
+#about .title {
+  font-size: 3rem;
+  text-align: center;
+  margin-top: 10px;
+}
+
 .gallery{
     background-color: #131217;
     position: relative;
@@ -182,49 +280,6 @@ p{
     width: 75%;
     margin: 70px auto auto auto;
 }
-
-.hardSkills{
-    font-family: 'Courier New', Courier, monospace;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    margin: 50px;
-    gap: 30px;
-}
-
-
-.skill{
-    width: 3in;
-    height: auto;
-    margin:auto; 
-    text-align: center;
-    font-size: 20px; 
-    padding: 10px;
-    flex: 1;
-}
-.hardSkills .React{
-    width: 2.5in;
-}
-
-.hardSkills .JavaSCript{
-    width: 2.5in;
-}
-
-.skill img{
-    width:0.8in;
-    padding: 20px;
-    align-items: center;   
-    opacity: 0.5;
-}
-.skill h6{
-    align-items: center;
-    font-size: bold;
-    margin-block-start: 8px;
-    margin-block-end: 5px;
-    color: var(--lightgrey);
-    font-size: 12px;
-}
-
 
 .nameCityMobile {
     display: none;
