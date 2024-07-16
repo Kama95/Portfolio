@@ -630,6 +630,10 @@ justify-content: center;
         margin-left: -23px;
     }
 
+    html body section#about{
+        height: 200vh;
+    }
+
     .gallery .galleryContainer .galleryItem1,
     .gallery .galleryContainer .galleryItem2,
     .gallery .galleryContainer .galleryItem3{
@@ -701,11 +705,12 @@ display: none;
             margin-left: -23px;
         }
     
-        .hardSkills .skill.JavaSCript{
-            margin-left: 10px;
-        }
-        .hardSkills .skill.Node{
-            margin-left: 10px;
+        body section#about{
+            height: 150vh;
+        }   
+        
+        div.text-container{
+            font-size: 22px;
         }
 
         .galleryContainer .galleryItem1,
@@ -818,74 +823,40 @@ display: none;
     left: 70px;
     width: 125%;
     margin-top: 10px;
-    font-size: 15.9px;
+    font-size: 16px;
 }
     
 h1.title{
     margin-top: 110px;
-    font-size: 50px;
+    font-size: 70px;
     font-weight: 900;
     font-family: 'roboto';
     width: 100%;
 }
+
+h6.realTitle{
+    font-size: 34px;
+}
 .aboutMe{
-    width: 80%;
+    width: 95%;
     margin: auto;
     margin-top: 80px;
 }
 
 .aboutMe p {
-        font-size: 22px;
+        font-size: 28px;
         font-weight: 300;
         text-align: center;
 }
 
-.hardSkills {
-    margin-top: 10px;
-    display: grid;
-    grid-template-columns: repeat(2, 0fr);
-gap: 5px;
-}
-
-.hardSkills .React{
-margin-top: 20px;
-}
-.hardSkills .Node{
-    margin-top: 26px;
-    margin-left: 80px;
-
-}
-.hardSkills .CSS{
-margin-top: 37px;
-}
-
-.hardSkills .JavaSCript{
-    margin-top: 46px;
-    margin-left: 80px;
-}
-
-.hardSkills div.JavaSCript, .hardSkills div.React{
-width: 2in;
-}
-.hard
-
-.skill h6{
-    font-size: 15px;
-}
-
-.hardSkills .skill{
-    width: 2in;  
-}
-
-
-.skill img{
-    width: 0.7in;
+.gallery. .sectionHeading h1{
+    font-size: 2rem;
 }
 .galleryContainer{
     display: flex;
     flex-direction: column;
-
 }
+
 
 .galleryItem1,.galleryItem2,.galleryItem3{
     margin: 10px;

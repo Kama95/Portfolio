@@ -62,7 +62,7 @@ window.requestAnimationFrame(loop);
 const patternElement = document.getElementById('pattern');//grab pattern element
 
 //multiply or increase the hexagpn shape to cover eniter backgroiund.
-const countY = Math.ceil(patternElement.clientHeight /40)+1;
+const countY = Math.ceil(patternElement.clientHeight /10)+1;
 const countX = Math.ceil(patternElement.clientWidth/40)+1;
 const gap =2;
 
