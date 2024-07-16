@@ -187,7 +187,7 @@ section {
   margin: auto 0;
 }
 section#about{
-    background-color: black;
+    background-color: #131217;
 }
 .section__text {
   align-self: center;
@@ -201,9 +201,11 @@ section#about{
 .section__text__p1 {
     font-size: 20px;
   text-align: center;
+  padding-top: 30px;
+  font-weight: 400;
 }
 
-.section__text__p2 {
+.section__text__p2 { 
   font-size: 1.75rem;
   margin-bottom: 1rem;
 }
@@ -235,10 +237,13 @@ section#about{
   border-radius: 2rem;
 }
 
-.arrow {
+.arrow{
   position: absolute;
-  right: -5rem;
+  right: 50rem;
   bottom: 2.5rem;
+}
+.arrow .icon.arrow{
+    color: white;
 }
 
 .details-container {
@@ -246,11 +251,16 @@ section#about{
   flex: 1;
   background: white;
   border-radius: 2rem;
-  border: rgb(53, 53, 53) 0.1rem solid;
+  border: white 0.1rem solid;
   border-color: rgb(163, 163, 163);
   text-align: center;
+  background-color: var(--grey);
 }
 
+.details-container h3,
+.details-container p{
+    color: white;
+}
 .section-container {
   gap: 4rem;
   height: 80%;
