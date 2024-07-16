@@ -192,6 +192,7 @@ section#about{
     display: flex;
     flex-direction: column;
     align-items: center;
+    overflow: auto;
 }
 .section__text {
   align-self: center;
@@ -282,6 +283,9 @@ section#about{
   margin: auto 0;
 }
 
+.text-container p{
+    font-size: 27px;
+}
 /*#about .title {
   font-size: 3rem;
   text-align: center;
