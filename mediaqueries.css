@@ -413,7 +413,7 @@ display: none;
 
 @media screen and (max-width:362px) {
   section#about{
-    height: 243vh;
+    height: auto;
   }
   
 }
