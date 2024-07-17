@@ -51,14 +51,14 @@
 @media screen and (max-width: 600px) {
   #contact,
   footer {
-    height: 92vh;
+    height: auto;
   }
   .details-container p{
   font-size: 20px;
   }
 
   section#about{
-    height: 120vh;
+    height: auto;
   }
   #about h1{
     font-size: 2.5rem;
@@ -273,13 +273,14 @@ div.modal#myModal{
 }
 @media screen and (max-width:500px) {
   section#about{
-height: 135vh;
+height: auto;
   }
+
 }
 @media screen and (max-width:439px){
     
 section#about{
-  height: 150vh;
+  height: auto;
 }
 }
 
@@ -300,9 +301,6 @@ section#about{
   .titleInfo .aboutMe p{
        font-size: 22px;
    }
-
-   
-
    nav .nameCityMobile{
       font-size: 14.9px;
       margin-right: 6px;
@@ -317,9 +315,12 @@ section#about{
   }
 
   section#about{
-      height: 150vh;
+      height: auto;
   }   
   
+  footer{
+    height: auto;
+  }
   div.text-container{
       font-size: 22px;
   }
@@ -356,7 +357,7 @@ display: none;
 
 @media screen and (max-width:412px){
   section#about{
-    height: 160vh;
+    height: auto;
   }
 }
 @media screen and (max-width:390px) {
@@ -383,7 +384,7 @@ display: none;
     }
 
     section#about{
-        height: 170vh;
+        height: auto;
     }
 
     .gallery .galleryContainer .galleryItem1,
@@ -408,11 +409,11 @@ display: none;
     .galleryItem1:hover,.galleryItem2:hover,.galleryItem3:hover{
         transform: none;
   }
-
 }
+
 @media screen and (max-width:362px) {
   section#about{
-    height: 200vh;
+    height: 243vh;
   }
   
 }
