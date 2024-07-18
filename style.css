@@ -288,12 +288,14 @@ section#about, section#experience {
     display: flex;
     width: 10rem;
     justify-content: space-around;
-    gap: 0.5rem;
+    gap: 1rem;
+    flex: 0;
   }
   
   article p{
-    font-size: 20px;
+    font-size: 22px;
   }
+
   article .icon {
     cursor: default;
   }
