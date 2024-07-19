@@ -186,6 +186,12 @@ section#about, section#experience {
   margin-bottom: -30px;
 }
 
+.projects .section__text__p1{
+    margin-top: 30px;
+    margin-bottom: -56px;
+
+}
+
 .section__text__p2 { 
   font-size: 1.75rem;
   margin-bottom: 1rem;
@@ -267,6 +273,7 @@ section#about, section#experience {
 
 /********* EXPERIENCE******/
 
+
 .experience-details-container {
     display: flex;
     justify-content: center;
@@ -313,7 +320,7 @@ section#about, section#experience {
     background-color: #131217;
     position: relative;
     z-index: 1;
-    height: 90vh;
+    height: auto;
 }
 .aboutMe{
     display: flex;
